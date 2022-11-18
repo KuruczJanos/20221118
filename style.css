@@ -31,3 +31,29 @@ h1{
     color: white;
     padding-left: 80px;
 }
+img{
+    max-width: 500px;
+    max-height: 500px;
+}
+#left{
+    float: left;
+    width: 49.9999%;
+    display: block;
+}
+#right{
+    float: left;
+    width: 49.9999%;
+    display: block;
+}
+#main p{
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: justify;
+}
+#main::after, p::after, #footer::after{
+    content:'';
+    clear:both;
+    display: table;
+}
