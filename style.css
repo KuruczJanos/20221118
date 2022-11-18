@@ -5,3 +5,20 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+html{
+    font-size: 16px;
+}
+#container{
+    max-width: 1000px;
+    width:95%;
+    margin:0 auto;
+}
+#header{
+    background: url(./img/img/picture1.jpg)no-repeat;
+    height: 300px;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    padding: 150px 260px;
+}
